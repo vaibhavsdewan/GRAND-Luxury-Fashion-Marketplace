@@ -1,7 +1,7 @@
-# GRAND-Luxury Fashion Marketplace
+# GRAND
 
 ## Description
-GRAND is a luxury fashion marketplace that connects high-end fashion brands with discerning customers looking for premium apparel, accessories, and more.
+GRAND is a luxury fashion shopping platform that connects high-end fashion brands with discerning customers looking for premium apparel, accessories, and more.
 
 ## Installation
 - Clone the repository:
