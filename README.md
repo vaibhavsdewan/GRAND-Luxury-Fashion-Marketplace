@@ -22,5 +22,6 @@ GRAND is a luxury fashion shopping platform that connects high-end fashion brand
 
 ## Screenshots
 - Home Page
-![Screenshot1](screenshot1.png)
+![Screenshot 1](screenshots/screenshot1.png)
+
 
