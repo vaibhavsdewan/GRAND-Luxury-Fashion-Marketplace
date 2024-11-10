@@ -7,6 +7,9 @@ GRAND is a luxury fashion shopping platform that connects high-end fashion brand
 - Home Page
 ![Home Page](screenshots/screenshot1.png)
 
+- Watches Page
+![Watches Page](screenshots/screenshot2.png)
+
 ## Installation
 - Clone the repository:
   ```bash
