@@ -1,0 +1,409 @@
+<html lang="en">
+ <head>
+   <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Shop Page
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOP4jxR7O3UQRCtAaq0lrk6XmVkAvxnF_tnQ&s" type="image">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .product:hover {
+            transform: translateY(-10px);
+        }
+        .product img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .product h2 {
+            font-size: 1.5em;
+            color: #333;
+            margin: 10px 0;
+        }
+        .product p {
+            color: #666;
+            font-size: 1em;
+            margin: 10px 0;
+        }
+        .product .price {
+            font-size: 1.2em;
+            color: #e67e22;
+            margin: 10px 0;
+        }
+        .product .add-to-cart {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #e67e22;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .product .add-to-cart:hover {
+            background-color: #d35400;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+   <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+   <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+    <a class="text-3xl font-bold text-gray-800" href="#">
+     GRAND
+    </a>
+    <div class="flex items-center space-x-4">
+     <a class="text-gray-800 hover:text-gray-600" href="index.html">
+      Home
+     </a>
+     <a class="text-gray-800 hover:text-gray-600" href="shop.html">
+      Shop
+     </a>
+     <a class="text-gray-800 hover:text-gray-600" href="about.html">
+      About
+     </a>
+     <a class="text-gray-800 hover:text-gray-600" href="contact.html">
+      Contact
+     </a>
+     <a class="text-gray-800 hover:text-gray-600" href="cart.html">
+      <i class="fas fa-shopping-cart">
+      </i>
+     </a>
+    </div>
+   </div>
+  </nav>
+  <!-- Shop Section -->
+  <section class="py-12">
+  <div class="container mx-auto px-6">
+   <div class="header">
+    <h1>
+     Our Products
+    </h1>
+   </div>
+   <div class="products">
+    <div class="product">
+     <img alt="A stylish modern chair with wooden legs and a comfortable cushion seat" height="300" src="https://storage.googleapis.com/a1aa/image/lzJfVfdFQ6qYOUdlZneteZelAOZzuUL3fGEaydIQgMi0V7U7E.jpg" width="300"/>
+     <h2>
+      Modern Chair
+     </h2>
+     <p>
+      A stylish modern chair with wooden legs and a comfortable cushion seat.
+     </p>
+     <div class="price">
+        ₹ 12,000.00
+     </div>
+     <a class="add-to-cart" href="#">
+      <i class="fas fa-cart-plus">
+      </i>
+      Add to Cart
+     </a>
+    </div>
+    <div class="product">
+     <img alt="A sleek black desk lamp with an adjustable arm and LED light" height="300" src="https://storage.googleapis.com/a1aa/image/Spbv3C0wJ0oOLpbQBj53RPbDbheOR8FCWYpZyGeZ9qiEtTtTA.jpg" width="300"/>
+     <h2>
+      Desk Lamp
+     </h2>
+     <p>
+      A sleek black desk lamp with an adjustable arm and LED light.
+     </p>
+     <div class="price">
+        ₹ 4,500.00
+     </div>
+     <a class="add-to-cart" href="#">
+      <i class="fas fa-cart-plus">
+      </i>
+      Add to Cart
+     </a>
+    </div>
+    <div class="product">
+     <img alt="A minimalist white ceramic vase with a narrow neck and wide base" height="300" src="https://storage.googleapis.com/a1aa/image/eKE5ksxjaE1ezUQVkB4e9ADBxXAAefVCWCTTjhuNiZ7fT7U7E.jpg" width="300"/>
+     <h2>
+      Ceramic Vase
+     </h2>
+     <p>
+      A minimalist white ceramic vase with a narrow neck and wide base.
+     </p>
+     <div class="price">
+        ₹ 3,000.00
+     </div>
+     <a class="add-to-cart" href="#">
+      <i class="fas fa-cart-plus">
+      </i>
+      Add to Cart
+     </a>
+    </div>
+    <div class="product">
+     <img alt="A set of three stackable storage boxes in pastel colors" height="300" src="https://storage.googleapis.com/a1aa/image/LVa0GYeLI6RddKk6SB8sc67SqerTGRydsL3q339afOsNananA.jpg" width="300"/>
+     <h2>
+      Storage Boxes
+     </h2>
+     <p>
+      A set of three stackable storage boxes in pastel colors.
+     </p>
+     <div class="price">
+        ₹ 2,500.00
+     </div>
+     <a class="add-to-cart" href="#">
+      <i class="fas fa-cart-plus">
+      </i>
+      Add to Cart
+     </a>
+    </div>
+    <div class="product">
+     <img alt="A cozy knitted throw blanket in a soft grey color" height="300" src="https://storage.googleapis.com/a1aa/image/nDATUEur86pCLVw2wx26JKCWBueYrbwrMueGcVoagfViananA.jpg" width="300"/>
+     <h2>
+      Throw Blanket
+     </h2>
+     <p>
+      A cozy knitted throw blanket in a soft grey color.
+     </p>
+     <div class="price">
+        ₹ 6,000.00
+     </div>
+     <a class="add-to-cart" href="#">
+      <i class="fas fa-cart-plus">
+      </i>
+      Add to Cart
+     </a>
+    </div>
+    <div class="product">
+     <img alt="A pair of elegant crystal wine glasses with a long stem" height="300" src="https://storage.googleapis.com/a1aa/image/02iInBZ26z4kCp9Yv0eadqkCObQ0Lja79VtFycsfl3kZtTtTA.jpg" width="300"/>
+     <h2>
+      Wine Glasses
+     </h2>
+     <p>
+      A pair of elegant crystal wine glasses with a long stem.
+     </p>
+     <div class="price">
+        ₹ 5,000.00
+     </div>
+     <a class="add-to-cart" href="#">
+      <i class="fas fa-cart-plus">
+      </i>
+      Add to Cart
+     </a>
+    </div>
+    <div class="product">
+     <img alt="A compact and portable Bluetooth speaker in a vibrant red color" height="300" src="https://storage.googleapis.com/a1aa/image/KowemOnnQx0bPqOatuG5YGXyZjJ1m0hlfPmymey9fE2eodqdC.jpg" width="300"/>
+     <h2>
+      Bluetooth Speaker
+     </h2>
+     <p>
+      A compact and portable Bluetooth speaker in a vibrant red color.
+     </p>
+     <div class="price">
+        ₹ 7,500.00
+     </div>
+     <a class="add-to-cart" href="#">
+      <i class="fas fa-cart-plus">
+      </i>
+      Add to Cart
+     </a>
+    </div>
+    <div class="product">
+     <img alt="A stylish wristwatch with a leather strap and a minimalist dial" height="300" src="https://storage.googleapis.com/a1aa/image/WKaZt6FnxM5qJ1vOfe0qW1RubcyJWcRlTsdgf3B9NA7XananA.jpg" width="300"/>
+     <h2>
+      Wristwatch
+     </h2>
+     <p>
+      A stylish wristwatch with a leather strap and a minimalist dial.
+     </p>
+     <div class="price">
+        ₹ 15,000.00
+     </div>
+     <a class="add-to-cart" href="#">
+      <i class="fas fa-cart-plus">
+      </i>
+      Add to Cart
+     </a>
+    </div>
+    <div class="product">
+     <img alt="A set of four colorful ceramic coffee mugs with a glossy finish" height="300" src="https://storage.googleapis.com/a1aa/image/wyctAfx1aT3gJCYVtzStvCEL9lvPkfsyZ3FoZrSRiZvItTtTA.jpg" width="300"/>
+     <h2>
+      Coffee Mugs
+     </h2>
+     <p>
+      A set of four colorful ceramic coffee mugs with a glossy finish.
+     </p>
+     <div class="price">
+        ₹ 3,500.00
+     </div>
+     <a class="add-to-cart" href="#">
+      <i class="fas fa-cart-plus">
+      </i>
+      Add to Cart
+     </a>
+    </div>
+    <div class="product">
+     <img alt="A decorative wall clock with a vintage design and Roman numerals" height="300" src="https://storage.googleapis.com/a1aa/image/6S4OwJaueIVpASpHqHFrKQlbXWEWbJqjlXwovnuc6FFp2p2JA.jpg" width="300"/>
+     <h2>
+      Wall Clock
+     </h2>
+     <p>
+      A decorative wall clock with a vintage design and Roman numerals.
+     </p>
+     <div class="price">
+        ₹ 8,000.00
+     </div>
+     <a class="add-to-cart" href="#">
+      <i class="fas fa-cart-plus">
+      </i>
+      Add to Cart
+     </a>
+    </div>
+    <div class="product">
+     <img alt="A soft and fluffy area rug in a neutral beige color" height="300" src="https://storage.googleapis.com/a1aa/image/flPWVIXkRC2UBaAXUr8FxGekmgLfeAx1b3yhjk17t6hp0O1OB.jpg" width="300"/>
+     <h2>
+      Area Rug
+     </h2>
+     <p>
+      A soft and fluffy area rug in a neutral beige color.
+     </p>
+     <div class="price">
+        ₹ 20,000.00
+     </div>
+     <a class="add-to-cart" href="#">
+      <i class="fas fa-cart-plus">
+      </i>
+      Add to Cart
+     </a>
+    </div>
+    <div class="product">
+     <img alt="A set of stainless steel kitchen knives with ergonomic handles" height="300" src="https://storage.googleapis.com/a1aa/image/ItU3KIzFCdZRCVmbhTr1LHmc1mKG9Fxl6V9Vc8wA8XPT7U7E.jpg" width="300"/>
+     <h2>
+      Kitchen Knives
+     </h2>
+     <p>
+      A set of stainless steel kitchen knives with ergonomic handles.
+     </p>
+     <div class="price">
+        ₹ 10,000.00
+     </div>
+     <a class="add-to-cart" href="#">
+      <i class="fas fa-cart-plus">
+      </i>
+      Add to Cart
+     </a>
+    </div>
+    <div class="product">
+     <img alt="A modern floor lamp with a sleek metal stand and a fabric shade" height="300" src="https://storage.googleapis.com/a1aa/image/OE7zM8VJEX7eM6wve75wNure6ueVsqCZGPLtfunkFxwwqdqdC.jpg" width="300"/>
+     <h2>
+      Floor Lamp
+     </h2>
+     <p>
+      A modern floor lamp with a sleek metal stand and a fabric shade.
+     </p>
+     <div class="price">
+        ₹ 13,000.00
+     </div>
+     <a class="add-to-cart" href="#">
+      <i class="fas fa-cart-plus">
+      </i>
+      Add to Cart
+     </a>
+    </div>
+    <div class="product">
+     <img alt="A set of three decorative throw pillows in various patterns and colors" height="300" src="https://storage.googleapis.com/a1aa/image/1SeVRYbifCsIkUcFGofEJrMpH6wm8jeQWBWbdTXsF69W1O1OB.jpg" width="300"/>
+     <h2>
+      Throw Pillows
+     </h2>
+     <p>
+      A set of three decorative throw pillows in various patterns and colors.
+     </p>
+     <div class="price">
+        ₹ 4,000.00
+     </div>
+     <a class="add-to-cart" href="#">
+      <i class="fas fa-cart-plus">
+      </i>
+      Add to Cart
+     </a>
+    </div>
+    <div class="product">
+     <img alt="A stylish leather wallet with multiple card slots and a coin pocket" height="300" src="https://storage.googleapis.com/a1aa/image/KEbfOj7B2CRjYCBETEirclSpMWqfz8rei0tc2m378IMcananA.jpg" width="300"/>
+     <h2>
+      Leather Wallet
+     </h2>
+     <p>
+      A stylish leather wallet with multiple card slots and a coin pocket.
+     </p>
+     <div class="price">
+        ₹ 5,500.00
+     </div>
+     <a class="add-to-cart" href="#">
+      <i class="fas fa-cart-plus">
+      </i>
+      Add to Cart
+     </a>
+    </div>
+   </div>
+  </div>
+</section>
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+   <div class="container mx-auto px-6">
+    <div class="flex justify-between items-center">
+     <p>
+      © 2024 GRAND. All rights reserved.
+     </p>
+     <div class="flex space-x-4">
+      <a class="hover:text-gray-400" href="#">
+       <i class="fab fa-facebook-f">
+       </i>
+      </a>
+      <a class="hover:text-gray-400" href="#">
+       <i class="fab fa-twitter">
+       </i>
+      </a>
+      <a class="hover:text-gray-400" href="#">
+       <i class="fab fa-instagram">
+       </i>
+      </a>
+      <a class="hover:text-gray-400" href="#">
+       <i class="fab fa-linkedin-in">
+       </i>
+      </a>
+     </div>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
