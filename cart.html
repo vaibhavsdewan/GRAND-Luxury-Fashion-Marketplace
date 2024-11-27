@@ -1,0 +1,175 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Cart - GRAND
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOP4jxR7O3UQRCtAaq0lrk6XmVkAvxnF_tnQ&s" type="image">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Playfair Display', serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+   <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+    <a class="text-3xl font-bold text-gray-800" href="index.html">
+     GRAND
+    </a>
+    <div class="flex items-center space-x-4">
+     <a class="text-gray-800 hover:text-gray-600" href="index.html">
+      Home
+     </a>
+     <a class="text-gray-800 hover:text-gray-600" href="shop.html">
+      Shop
+     </a>
+     <a class="text-gray-800 hover:text-gray-600" href="about.html">
+      About
+     </a>
+     <a class="text-gray-800 hover:text-gray-600" href="contact.html">
+      Contact
+     </a>
+     <a class="text-gray-800 hover:text-gray-600" href="cart.html">
+      <i class="fas fa-shopping-cart">
+      </i>
+     </a>
+    </div>
+   </div>
+  </nav>
+  <!-- Cart Section -->
+  <section class="py-12">
+   <div class="container mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center mb-12">
+     Your Cart
+    </h2>
+    <div class="bg-white shadow-md rounded-lg p-6">
+     <table class="w-full">
+      <thead>
+       <tr>
+        <th class="text-left py-2">
+         Product
+        </th>
+        <th class="text-left py-2">
+         Quantity
+        </th>
+        <th class="text-left py-2">
+         Price
+        </th>
+        <th class="text-left py-2">
+         Total
+        </th>
+        <th class="text-left py-2">
+         Remove
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <!-- Cart Item 1 -->
+       <tr>
+        <td class="py-2">
+         <div class="flex items-center">
+          <img alt="Luxury handbag with intricate design" class="w-16 h-16 object-cover rounded" height="64" src="https://storage.googleapis.com/a1aa/image/hdUf6uq88ryGayfZdCLpjlJKsVwhn6Y2OVvAT2rfWnkHiWqnA.jpg" width="64"/>
+          <span class="ml-4">
+           Luxury Handbag
+          </span>
+         </div>
+        </td>
+        <td class="py-2">
+         <input class="w-16 px-2 py-1 border rounded" type="number" value="1"/>
+        </td>
+        <td class="py-2">
+         ₹ 1,20,000
+        </td>
+        <td class="py-2">
+        ₹ 1,20,000
+        </td>
+        <td class="py-2">
+         <button class="text-red-600 hover:text-red-800">
+          <i class="fas fa-trash">
+          </i>
+         </button>
+        </td>
+       </tr>
+       <!-- Cart Item 2 -->
+       <tr>
+        <td class="py-2">
+         <div class="flex items-center">
+          <img alt="Elegant wristwatch with gold accents" class="w-16 h-16 object-cover rounded" height="64" src="https://storage.googleapis.com/a1aa/image/kLUIA2F6B8qxJNS5TPFZFpkWHWfPZvBlUBgnu6qWdxxgol6JA.jpg" width="64"/>
+          <span class="ml-4">
+           Elegant Wristwatch
+          </span>
+         </div>
+        </td>
+        <td class="py-2">
+         <input class="w-16 px-2 py-1 border rounded" type="number" value="1"/>
+        </td>
+        <td class="py-2">
+            ₹ 2,50,000
+        </td>
+        <td class="py-2">
+            ₹ 2,50,000
+        </td>
+        <td class="py-2">
+         <button class="text-red-600 hover:text-red-800">
+          <i class="fas fa-trash">
+          </i>
+         </button>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+     <div class="mt-6 flex justify-end">
+      <div class="text-right">
+       <p class="text-xl font-bold">
+        Total: ₹ 3,70,000
+       </p>
+       <a href="checkout.html"> 
+        <button class="mt-4 bg-gray-800 text-white py-2 px-4 rounded hover:bg-gray-700">
+        Proceed to Checkout
+       </button>
+    </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+   <div class="container mx-auto px-6">
+    <div class="flex justify-between items-center">
+     <p>
+      © 2024 GRAND. All rights reserved.
+     </p>
+     <div class="flex space-x-4">
+      <a class="hover:text-gray-400" href="#">
+       <i class="fab fa-facebook-f">
+       </i>
+      </a>
+      <a class="hover:text-gray-400" href="#">
+       <i class="fab fa-twitter">
+       </i>
+      </a>
+      <a class="hover:text-gray-400" href="#">
+       <i class="fab fa-instagram">
+       </i>
+      </a>
+      <a class="hover:text-gray-400" href="#">
+       <i class="fab fa-linkedin-in">
+       </i>
+      </a>
+     </div>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
