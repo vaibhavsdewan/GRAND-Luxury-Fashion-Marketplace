@@ -1,0 +1,49 @@
+body{
+    font-family: times new roman;
+    }
+    
+    a:link{
+      color: black;
+      background-color: transparent;
+      text-decoration:  none;
+    }
+    a:visited {
+      color: black;
+      background-color: transparent;
+      text-decoration:  none;
+    }
+    
+    .nav {
+    display: inline-block;
+    width: 100%;
+    padding: 40px;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: white;
+    border-bottom: 1px solid black;
+    }
+    .div1{
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: white;
+    border-bottom: 1px solid black;
+    }
+    .imgr1{
+    display: flex;
+    }
+    .div2{
+    background-color: lightgrey;
+    width: 25%;
+    height: 460px;
+    }
+    .div3{
+    background-color: ivory;
+    width: 25%;
+    height: 460px;
+    }
+    
