@@ -43,7 +43,6 @@ GRAND is a luxury fashion shopping platform that connects high-end fashion brand
 
 ## Usage
 - Visit the website to explore luxury fashion products including bags, watches, jewellery, perfumes, shoes, wallets, sunglasses and jackets.
-- Browse through the categories, view detailed product pages, and add items to your cart.
 
 ## Contributing
 1. Fork the project.
